@@ -6,13 +6,13 @@ about collecting those data and publishing statistics.
 
 Collected data:
 
-* Usernames*
+* Usernames\*
 * Waifu / Husbando
 * Anime watched in minutes
 * Adult content preference
 * Language preference
 
-* For now no stats are generated and published using this data, also I don't want
+\* For now no stats are generated and published using this data, also I don't want
 to generate rankings for users.
 
 The data is being collected using the API since 09/09/2016 (curious that is not
