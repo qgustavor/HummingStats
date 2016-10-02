@@ -1,0 +1,404 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>HummingStats</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.red-indigo.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="main.css">
+<style>.avatar{background-image:url(avatars.jpg?569335938)}.avatar-27158{background-position:0 -0px}.avatar-22846{background-position:0 -60px}.avatar-32510{background-position:0 -120px}.avatar-1155{background-position:0 -180px}.avatar-6553{background-position:0 -240px}.avatar-34883{background-position:0 -300px}.avatar-31972{background-position:0 -360px}.avatar-10789{background-position:0 -420px}.avatar-33299{background-position:0 -480px}.avatar-16458{background-position:0 -540px}.avatar-27165{background-position:0 -600px}.avatar-37311{background-position:0 -660px}.avatar-39272{background-position:0 -720px}.avatar-32961{background-position:0 -780px}.avatar-27163{background-position:0 -840px}.avatar-19270{background-position:0 -900px}.avatar-34988{background-position:0 -960px}.avatar-28144{background-position:0 -1020px}.avatar-60188{background-position:0 -1080px}.avatar-6556{background-position:0 -1140px}.avatar-36171{background-position:0 -1200px}.avatar-2819{background-position:0 -1260px}.avatar-6560{background-position:0 -1320px}.avatar-29869{background-position:0 -1380px}.avatar-60601{background-position:0 -1440px}.avatar-13924{background-position:0 -1500px}.avatar-40823{background-position:0 -1560px}.avatar-48636{background-position:0 -1620px}.avatar-17753{background-position:0 -1680px}.avatar-50983{background-position:0 -1740px}.avatar-6875{background-position:0 -1800px}.avatar-411{background-position:0 -1860px}.avatar-32989{background-position:0 -1920px}.avatar-1175{background-position:0 -1980px}.avatar-50243{background-position:0 -2040px}.avatar-60959{background-position:0 -2100px}.avatar-39556{background-position:0 -2160px}.avatar-37259{background-position:0 -2220px}.avatar-9483{background-position:0 -2280px}.avatar-11441{background-position:0 -2340px}</style>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-layout__header--waterfall mdl-layout__header--waterfall-hide-top">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">HummingStats</span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation">
+        <span class="mdl-navigation__link">using data from 10,000 users</span>
+      </nav>
+    </div>
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a href="#waifu-panel" class="mdl-layout__tab is-active">Top 20 Waifus</a>
+      <a href="#husbando-panel" class="mdl-layout__tab">Top 20 Husbandos</a>
+      <a href="#life-panel" class="mdl-layout__tab">Time spent</a>
+      <a href="#preferences-panel" class="mdl-layout__tab">Preferences</a>
+      <a href="#info-panel" class="mdl-layout__tab">Info</a>
+    </div>
+  </header>
+  
+  <main class="mdl-layout__content">
+    <div class="content-wrapper app-limit-width mdl-shadow--2dp">
+      <div class="content mdl-layout__tab-panel is-active" id="waifu-panel"><table class="mdl-data-table mdl-js-data-table mdl-shadow--1dp">
+  <thead>
+    <tr>
+      <th class="mid-cell">Rank</th>
+      <th class="mid-cell">Avatar</th>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
+      <th>Lovers</th>
+    </tr>
+  </thead>
+  <tbody>      <tr class="winner-row">
+        <td class="mid-cell"><span class="winner-1-badge">1</span></td>
+        <td class="mid-cell"><div class="avatar avatar-27158"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/monogatari-series-second-season" target="_blank" rel="noopener">Senjougahara Hitagi</a>
+        </td>
+        <td>13</td>
+      </tr>
+            <tr class="winner-row">
+        <td class="mid-cell"><span class="winner-2-badge">2</span></td>
+        <td class="mid-cell"><div class="avatar avatar-22846"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/ookami-to-koushinryou" target="_blank" rel="noopener">Holo</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Senjougahara Hitagi watched 2 months more anime than the ones that love Holo">13</span></td>
+      </tr>
+            <tr class="winner-row">
+        <td class="mid-cell"><span class="winner-3-badge">3</span></td>
+        <td class="mid-cell"><div class="avatar avatar-32510"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/steins-gate" target="_blank" rel="noopener">Makise Kurisu</a>
+        </td>
+        <td>11</td>
+      </tr>
+            <tr>
+        <td class="mid-cell">4</td>
+        <td class="mid-cell"><div class="avatar avatar-1155"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/neon-genesis-evangelion" target="_blank" rel="noopener">Asuka Langley</a>
+        </td>
+        <td>8</td>
+      </tr>
+            <tr>
+        <td class="mid-cell">5</td>
+        <td class="mid-cell"><div class="avatar avatar-6553"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/fate-stay-night" target="_blank" rel="noopener">Saber</a>
+        </td>
+        <td>7</td>
+      </tr>
+            <tr>
+        <td class="mid-cell">6</td>
+        <td class="mid-cell"><div class="avatar avatar-34883"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/redial" target="_blank" rel="noopener">Hatsune Miku</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Saber watched 3 weeks more anime than the ones that love Hatsune Miku">7</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">7</td>
+        <td class="mid-cell"><div class="avatar avatar-31972"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-a6283623-2e20-4848-81db-fd008507ec40" target="_blank" rel="noopener">Gokou Ruri</a>
+        </td>
+        <td>6</td>
+      </tr>
+            <tr>
+        <td class="mid-cell">8</td>
+        <td class="mid-cell"><div class="avatar avatar-10789"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/suzumiya-haruhi-no-yuuutsu" target="_blank" rel="noopener">Suzumiya Haruhi</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Gokou Ruri watched 5 months more anime than the ones that love Suzumiya Haruhi">6</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">9</td>
+        <td class="mid-cell"><div class="avatar avatar-33299"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/music-s-t-a-r-t" target="_blank" rel="noopener">Nishikino Maki</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Suzumiya Haruhi watched 4 months more anime than the ones that love Nishikino Maki">6</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">10</td>
+        <td class="mid-cell"><div class="avatar avatar-16458"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/code-geass-nunnally-in-wonderland" target="_blank" rel="noopener">C.C.</a>
+        </td>
+        <td>5</td>
+      </tr>
+            <tr>
+        <td class="mid-cell">11</td>
+        <td class="mid-cell"><div class="avatar avatar-27165"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/owarimonogatari" target="_blank" rel="noopener">Oshino Shinobu</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love C.C. watched 4 months more anime than the ones that love Oshino Shinobu">5</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">12</td>
+        <td class="mid-cell"><div class="avatar avatar-37311"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/sakurasou-no-pet-na-kanojo" target="_blank" rel="noopener">Shiina Mashiro</a>
+        </td>
+        <td>4</td>
+      </tr>
+            <tr>
+        <td class="mid-cell">13</td>
+        <td class="mid-cell"><div class="avatar avatar-39272"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/nisekoi" target="_blank" rel="noopener">Onodera Kosaki</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Shiina Mashiro watched 2 months more anime than the ones that love Onodera Kosaki">4</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">14</td>
+        <td class="mid-cell"><div class="avatar avatar-32961"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/rkgkmdk" target="_blank" rel="noopener">Homura Akemi</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Onodera Kosaki watched 4 days more anime than the ones that love Homura Akemi">4</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">15</td>
+        <td class="mid-cell"><div class="avatar avatar-27163"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/monogatari-series-heroine-hon" target="_blank" rel="noopener">Kanbaru Suruga</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Homura Akemi watched 1 day more anime than the ones that love Kanbaru Suruga">4</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">16</td>
+        <td class="mid-cell"><div class="avatar avatar-19270"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/tengen-toppa-gurren-lagann-yoko-no-obeso-hen" target="_blank" rel="noopener">Yoko Littner</a>
+        </td>
+        <td>3</td>
+      </tr>
+            <tr>
+        <td class="mid-cell">17</td>
+        <td class="mid-cell"><div class="avatar avatar-34988"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/all-alone-with-you" target="_blank" rel="noopener">Yuzuriha Inori</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Yoko Littner watched 1 month more anime than the ones that love Yuzuriha Inori">3</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">18</td>
+        <td class="mid-cell"><div class="avatar avatar-28144"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/k-on-anthology-comic" target="_blank" rel="noopener">Akiyama Mio</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Yuzuriha Inori watched 1 month more anime than the ones that love Akiyama Mio">3</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">19</td>
+        <td class="mid-cell"><div class="avatar avatar-60188"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/hibike-euphonium" target="_blank" rel="noopener">Oumae Kumiko</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Akiyama Mio watched 3 weeks more anime than the ones that love Oumae Kumiko">3</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">20</td>
+        <td class="mid-cell"><div class="avatar avatar-6556"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/fate-stay-night-unlimited-blade-works-tv-2nd-season" target="_blank" rel="noopener">Tohsaka Rin</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Oumae Kumiko watched 1 week more anime than the ones that love Tohsaka Rin">3</span></td>
+      </tr>
+      </tbody>
+</table>
+</div>
+      <div class="content mdl-layout__tab-panel" id="husbando-panel"><table class="mdl-data-table mdl-js-data-table mdl-shadow--1dp">
+  <thead>
+    <tr>
+      <th class="mid-cell">Rank</th>
+      <th class="mid-cell">Avatar</th>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
+      <th>Lovers</th>
+    </tr>
+  </thead>
+  <tbody>      <tr class="winner-row">
+        <td class="mid-cell"><span class="winner-1-badge">1</span></td>
+        <td class="mid-cell"><div class="avatar avatar-36171"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/koten-bu-series" target="_blank" rel="noopener">Oreki Houtarou</a>
+        </td>
+        <td>3</td>
+      </tr>
+            <tr class="winner-row">
+        <td class="mid-cell"><span class="winner-2-badge">2</span></td>
+        <td class="mid-cell"><div class="avatar avatar-2819"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/vampire-crisis" target="_blank" rel="noopener">Hisoka</a>
+        </td>
+        <td>2</td>
+      </tr>
+            <tr class="winner-row">
+        <td class="mid-cell"><span class="winner-3-badge">3</span></td>
+        <td class="mid-cell"><div class="avatar avatar-6560"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/fate-stay-night-unlimited-blade-works-2014" target="_blank" rel="noopener">Gilgamesh</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Hisoka watched 7 months more anime than the ones that love Gilgamesh">2</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">4</td>
+        <td class="mid-cell"><div class="avatar avatar-29869"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/durarara-x2-ten-onoroke-chakapoko" target="_blank" rel="noopener">Heiwajima Shizuo</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Gilgamesh watched 1 month more anime than the ones that love Heiwajima Shizuo">2</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">5</td>
+        <td class="mid-cell"><div class="avatar avatar-60601"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/bungou-stray-dogs" target="_blank" rel="noopener">Dazai Osamu</a>
+        </td>
+        <td>1</td>
+      </tr>
+            <tr>
+        <td class="mid-cell">6</td>
+        <td class="mid-cell"><div class="avatar avatar-13924"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/yoroiden-samurai-troopers" target="_blank" rel="noopener">Sanada Ryo</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Dazai Osamu watched 2 months more anime than the ones that love Sanada Ryo">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">7</td>
+        <td class="mid-cell"><div class="avatar avatar-40823"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/haikyuu" target="_blank" rel="noopener">Sugawara Koushi</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Sanada Ryo watched 5 months more anime than the ones that love Sugawara Koushi">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">8</td>
+        <td class="mid-cell"><div class="avatar avatar-48636"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/tokyo-kushu" target="_blank" rel="noopener">Tsukiyama Shuu</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Sugawara Koushi watched 2 weeks more anime than the ones that love Tsukiyama Shuu">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">9</td>
+        <td class="mid-cell"><div class="avatar avatar-17753"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/tales-of-symphonia" target="_blank" rel="noopener">Zelos Wilder</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Tsukiyama Shuu watched 1 day more anime than the ones that love Zelos Wilder">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">10</td>
+        <td class="mid-cell"><div class="avatar avatar-50983"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/akatsuki-no-yona" target="_blank" rel="noopener">Jae-Ha</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Zelos Wilder watched 1 day more anime than the ones that love Jae-Ha">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">11</td>
+        <td class="mid-cell"><div class="avatar avatar-6875"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/yu-yu-hakusho" target="_blank" rel="noopener">Kurama</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Jae-Ha watched 1 week more anime than the ones that love Kurama">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">12</td>
+        <td class="mid-cell"><div class="avatar avatar-411"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/one-piece-strong-world-episode-0" target="_blank" rel="noopener">Luffy Monkey D.</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Kurama watched 1 month more anime than the ones that love Luffy Monkey D.">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">13</td>
+        <td class="mid-cell"><div class="avatar avatar-32989"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/finder-no-hyouteki" target="_blank" rel="noopener">Asami Ryuichi</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Luffy Monkey D. watched 1 week more anime than the ones that love Asami Ryuichi">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">14</td>
+        <td class="mid-cell"><div class="avatar avatar-1175"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/berserk" target="_blank" rel="noopener">Griffith</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Asami Ryuichi watched 1 week more anime than the ones that love Griffith">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">15</td>
+        <td class="mid-cell"><div class="avatar avatar-50243"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/akagami-no-shirayuki-hime" target="_blank" rel="noopener">Izana Wistalia</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Griffith watched 3 hours more anime than the ones that love Izana Wistalia">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">16</td>
+        <td class="mid-cell"><div class="avatar avatar-60959"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/osomatsu-san-specials" target="_blank" rel="noopener">Matsuno Karamatsu</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Izana Wistalia watched 1 day more anime than the ones that love Matsuno Karamatsu">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">17</td>
+        <td class="mid-cell"><div class="avatar avatar-39556"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/shingeki-no-kyojin-kuinaki-sentaku" target="_blank" rel="noopener">Levi</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Matsuno Karamatsu watched 1 day more anime than the ones that love Levi">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">18</td>
+        <td class="mid-cell"><div class="avatar avatar-37259"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/kanshikan-tsunemori-akane" target="_blank" rel="noopener">Makishima Shougo</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Levi watched 3 days more anime than the ones that love Makishima Shougo">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">19</td>
+        <td class="mid-cell"><div class="avatar avatar-9483"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/jojo-s-bizarre-adventure-part-3-stardust-crusaders" target="_blank" rel="noopener">Kujo Jotaro</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Makishima Shougo watched 4 days more anime than the ones that love Kujo Jotaro">1</span></td>
+      </tr>
+            <tr>
+        <td class="mid-cell">20</td>
+        <td class="mid-cell"><div class="avatar avatar-11441"></div></td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://hummingbird.me/anime/gintama-kanketsu-hen-yorozuya-yo-eien-nare" target="_blank" rel="noopener">Sakata Gintoki</a>
+        </td>
+        <td><span class="tiebreaker" title="tiebreaker: users that love Kujo Jotaro watched 11 hours more anime than the ones that love Sakata Gintoki">1</span></td>
+      </tr>
+      </tbody>
+</table>
+</div>
+      <div class="content mdl-layout__tab-panel" id="life-panel"><script type="text/json+google-chart">{"type":"ColumnChart","options":{"title":"Users vs Watched weeks","vAxis":{"logScale":true}},"values":[["Weeks","Users"],["0",3115],["1",1846],["2",1367],["3",1044],["4",724],["5",481],["6",348],["7",215],["8",156],["9",123],["10",75],["11",43],["12",40],["13",30],["14",17],["15",10],["16",14],["17",8],["18",5],["19",9],["21",4]]}</script><script type="text/json+google-chart">{"type":"ColumnChart","options":{"title":"Users vs Watched weeks vs Hentai Preference","vAxis":{"logScale":true}},"values":[["Weeks","Hide Adult","Show Adult"],[0,2413,702],[1,953,893],[2,581,786],[3,371,673],[4,266,458],[5,165,316],[6,113,235],[7,59,156],[8,40,116],[9,28,95],[10,14,61],[11,8,35],[12,12,28],[13,10,20],[14,4,13],[16,4,10],[17,4,4],[19,4,5],[15,0,9],[18,0,5],[21,0,4]]}</script><script type="text/json+google-chart">{"type":"ColumnChart","options":{"title":"Users vs Watched weeks vs Language Preference","vAxis":{"logScale":true}},"values":[["Weeks","Canonical","English","Romanized"],["0",2924,132,59],["1",1597,137,112],["2",1166,115,86],["3",838,99,107],["4",570,76,78],["5",365,58,58],["6",260,34,54],["7",163,24,28],["8",111,19,26],["9",93,11,19],["10",57,5,13],["11",30,3,10],["12",28,5,7],["13",21,5,4],["14",9,2,6],["15",6,1,3],["16",10,3,1],["18",3,1,1],["19",6,1,2],["20",1,1,1]]}</script></div>
+      <div class="content mdl-layout__tab-panel" id="preferences-panel"><script type="text/json+google-chart">{"type":"PieChart","options":{"title":"Love preference","subtitle":"(for \"others\" see the info tab)"},"values":[["Preference","Users"],["Alone \/ Normie",8574],["Waifu",974],["Husbando",152]]}</script><script type="text/json+google-chart">{"type":"PieChart","options":{"title":"Language preference","subtitle":"Is clear that canonical is the default"},"values":[["Preference","Users"],["canonical",8284],["english",734],["romanized",682]]}</script><script type="text/json+google-chart">{"type":"PieChart","options":{"title":"Adult content preference","subtitle":"(i.e. hentai)"},"values":[["Preference","Users"],["Hide",5056],["Show",4644]]}</script></div>
+      <div class="content mdl-layout__tab-panel" id="info-panel"><p>Hummingbird allows users show the world what waifus and husbandos they like.
+The website also have a API that allow getting this values for each user.
+How about making a rank of those?</p>
+<p>We don't have a direct connection with Hummingbird database, so the data isn't
+real time and is slowly being updated from the API.</p>
+<p>When romanized names are detected (using Hepburn) then the Japanese name order is used.
+I know that Hummingbird, MyAnimeList and Wikia many others uses Western order, but as
+when searching for those the Japanese order returns more results, that's the canonical
+order.</p>
+<p>Avatars from Hummingbird, using cropped MyAnimeList images as a fallback (case when the
+only available avatars in Hummingbird are low res ones or if other problem happen).</p>
+<p>Some links in waifu and husbando names can be broken. I think that's because the
+URL of the anime it's linking changed and the API returned the old one from when the user
+set up his waifu or husbando.</p>
+<p>In life spent charts counts below 4 aren't shown, to avoid showing situations like
+people that are watching anime 24/7 since the Roman Empire fall (anime don't even existed
+in this epoch: time travel?<!-- okabe, stop watching anime now, your baka otaku -->).</p>
+<p>Sadly Google still don't implemented material charts for pie charts and logarithmic 
+scaling don't work in column charts, so the classic and old charts had to be used.</p>
+<p>Because a bug in Hummingbird code is possible to a user have something which something
+which isn't a waifu or a husbando (the "other" in the first graph on preferences). Also,
+as husbandos aren't that popular data from those are quite limited, so many of those
+ends tied. To solve this problem watching time is used as a tie breaker.</p></div>
+    </div>
+  </main>
+</div>
+
+<script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="main.js"></script>
