@@ -19,7 +19,7 @@ The data is being collected using the API since 09/09/2016 (curious that is not
 possible to mistake month and day) and may not reflect the actual state of the
 website. The API is being queried 24/7 since this day, but in a slow rate to
 avoid any problems to Hummingbird, also giving contact information in the
-user-agent string in all requests if needed.
+user-agent string in all requests.
 
 I think the developers can easily implement a official stats page, but they're
 too focused on the next version of Hummingbird, so I wanted to make a not
